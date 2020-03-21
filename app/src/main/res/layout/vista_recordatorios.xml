@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:background="@drawable/fondo"
+    android:paddingHorizontal="15dp"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="5dp"
+    android:orientation="vertical">
+
+    <TextView
+    android:id="@+id/recordatorioNombre"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Entrenamiento"
+    android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/recordatorioFrecu"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everyday"
+        android:textColor="@color/colorPrimaryDark"/>
+    <TextView
+        android:id="@+id/recordatorioHora"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15:00"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>
